@@ -54,6 +54,6 @@ function Array.TableToString(table)
     return parse
 end
 
-_G.PrintArray = Array.TableToString
+getgenv().PrintArray = Array.TableToString
 
 return Array
